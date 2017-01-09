@@ -44,7 +44,7 @@ def sheet(height,col_height,width):
 def print_sheet(copies,height,col_height,width):
 	#prints n copies of random sheets 
 	for i in range(1,copies+1):
-		file_name = "/Users/svanheuveln/Desktop/tafel_oefening" + str(i) + ".txt"
+		file_name = "~/Desktop/tafel_oefening" + str(i) + ".txt"
 		print(file_name)
 		page = sheet(height,col_height,width)
 		text_file = open(file_name, "w")
